@@ -30,6 +30,7 @@ namespace DesktopCalendar
         private void InitializeComponent()
         {
             this.codeeloGradientPanel1 = new CodeeloUI.Controls.CodeeloGradientPanel();
+            this.codeeloButton3 = new CodeeloUI.Controls.CodeeloButton();
             this.codeeloButton2 = new CodeeloUI.Controls.CodeeloButton();
             this.codeeloButton1 = new CodeeloUI.Controls.CodeeloButton();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -39,7 +40,6 @@ namespace DesktopCalendar
             this.label2 = new System.Windows.Forms.Label();
             this.codeeloTextBox1 = new CodeeloUI.Controls.CodeeloTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.codeeloButton3 = new CodeeloUI.Controls.CodeeloButton();
             this.codeeloGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +66,45 @@ namespace DesktopCalendar
             this.codeeloGradientPanel1.Name = "codeeloGradientPanel1";
             this.codeeloGradientPanel1.Size = new System.Drawing.Size(484, 505);
             this.codeeloGradientPanel1.TabIndex = 0;
+            // 
+            // codeeloButton3
+            // 
+            this.codeeloButton3.AccessibleRole = null;
+            this.codeeloButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.codeeloButton3.BackColor = System.Drawing.Color.Transparent;
+            this.codeeloButton3.BorderRadius = 20;
+            this.codeeloButton3.BorderSize = 0;
+            this.codeeloButton3.CausesValidation = false;
+            this.codeeloButton3.ColorFillFirst = System.Drawing.Color.MediumSlateBlue;
+            this.codeeloButton3.ColorFillSecond = System.Drawing.Color.Empty;
+            this.codeeloButton3.DialogResult = false;
+            this.codeeloButton3.FlatAppearance.BorderSize = 0;
+            this.codeeloButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.codeeloButton3.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.codeeloButton3.ForeColor = System.Drawing.Color.Black;
+            this.codeeloButton3.GradientBorderColorFirst = System.Drawing.Color.Transparent;
+            this.codeeloButton3.GradientBorderColorSecond = System.Drawing.Color.Transparent;
+            this.codeeloButton3.GradientBorderDirection = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.codeeloButton3.GradientDirection = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.codeeloButton3.Location = new System.Drawing.Point(148, 416);
+            this.codeeloButton3.Name = "codeeloButton3";
+            this.codeeloButton3.OnClickFirstBorderColor = System.Drawing.Color.DarkGray;
+            this.codeeloButton3.OnClickFirstFillColor = System.Drawing.Color.DarkGray;
+            this.codeeloButton3.OnClickSecondBorderColor = System.Drawing.Color.DarkGray;
+            this.codeeloButton3.OnClickSecondFillColor = System.Drawing.Color.DarkGray;
+            this.codeeloButton3.OnOverFirstBorderColor = System.Drawing.Color.DimGray;
+            this.codeeloButton3.OnOverFirstFillColor = System.Drawing.Color.DimGray;
+            this.codeeloButton3.OnOverSecondBorderColor = System.Drawing.Color.DimGray;
+            this.codeeloButton3.OnOverSecondFillColor = System.Drawing.Color.DimGray;
+            this.codeeloButton3.Size = new System.Drawing.Size(180, 60);
+            this.codeeloButton3.TabIndex = 9;
+            this.codeeloButton3.TabStop = false;
+            this.codeeloButton3.Text = "Налаштувати\r\n  повторення";
+            this.codeeloButton3.TextAlign = CodeeloUI.Enums.TextPosition.Center;
+            this.codeeloButton3.UseGradientBorder = true;
+            this.codeeloButton3.UseMnemonic = false;
+            this.codeeloButton3.UseVisualStyleBackColor = false;
+            this.codeeloButton3.Click += new System.EventHandler(this.codeeloButton3_Click);
             // 
             // codeeloButton2
             // 
@@ -99,7 +138,7 @@ namespace DesktopCalendar
             this.codeeloButton2.Size = new System.Drawing.Size(130, 60);
             this.codeeloButton2.TabIndex = 8;
             this.codeeloButton2.TabStop = false;
-            this.codeeloButton2.Text = "Отмена";
+            this.codeeloButton2.Text = "Відміна";
             this.codeeloButton2.TextAlign = CodeeloUI.Enums.TextPosition.Center;
             this.codeeloButton2.UseGradientBorder = true;
             this.codeeloButton2.UseMnemonic = false;
@@ -138,7 +177,7 @@ namespace DesktopCalendar
             this.codeeloButton1.Size = new System.Drawing.Size(130, 60);
             this.codeeloButton1.TabIndex = 7;
             this.codeeloButton1.TabStop = false;
-            this.codeeloButton1.Text = "Сохранить";
+            this.codeeloButton1.Text = "Зберегти";
             this.codeeloButton1.TextAlign = CodeeloUI.Enums.TextPosition.Center;
             this.codeeloButton1.UseGradientBorder = true;
             this.codeeloButton1.UseMnemonic = false;
@@ -152,9 +191,9 @@ namespace DesktopCalendar
             this.checkBox1.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBox1.Location = new System.Drawing.Point(12, 294);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(128, 27);
+            this.checkBox1.Size = new System.Drawing.Size(114, 27);
             this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Выполнено";
+            this.checkBox1.Text = "Виконано";
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -201,7 +240,16 @@ namespace DesktopCalendar
             // 
             this.codeeloDateTimePicker1.BorderColor = System.Drawing.Color.Black;
             this.codeeloDateTimePicker1.BorderSize = 1;
+            this.codeeloDateTimePicker1.CalendarFont = null;
+            this.codeeloDateTimePicker1.CalendarForeColor = System.Drawing.Color.Empty;
+            this.codeeloDateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Empty;
+            this.codeeloDateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.Empty;
+            this.codeeloDateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.Empty;
+            this.codeeloDateTimePicker1.CalendarTrailingForeColor = System.Drawing.Color.Empty;
+            this.codeeloDateTimePicker1.Checked = false;
+            this.codeeloDateTimePicker1.FillColor = System.Drawing.Color.White;
             this.codeeloDateTimePicker1.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.codeeloDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.codeeloDateTimePicker1.Location = new System.Drawing.Point(12, 119);
             this.codeeloDateTimePicker1.MinimumSize = new System.Drawing.Size(4, 35);
             this.codeeloDateTimePicker1.Name = "codeeloDateTimePicker1";
@@ -245,48 +293,9 @@ namespace DesktopCalendar
             this.label1.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(8, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 23);
+            this.label1.Size = new System.Drawing.Size(106, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Новое мероприятие";
-            // 
-            // codeeloButton3
-            // 
-            this.codeeloButton3.AccessibleRole = null;
-            this.codeeloButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.codeeloButton3.BackColor = System.Drawing.Color.Transparent;
-            this.codeeloButton3.BorderRadius = 20;
-            this.codeeloButton3.BorderSize = 0;
-            this.codeeloButton3.CausesValidation = false;
-            this.codeeloButton3.ColorFillFirst = System.Drawing.Color.MediumSlateBlue;
-            this.codeeloButton3.ColorFillSecond = System.Drawing.Color.Empty;
-            this.codeeloButton3.DialogResult = false;
-            this.codeeloButton3.FlatAppearance.BorderSize = 0;
-            this.codeeloButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.codeeloButton3.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.codeeloButton3.ForeColor = System.Drawing.Color.Black;
-            this.codeeloButton3.GradientBorderColorFirst = System.Drawing.Color.Transparent;
-            this.codeeloButton3.GradientBorderColorSecond = System.Drawing.Color.Transparent;
-            this.codeeloButton3.GradientBorderDirection = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.codeeloButton3.GradientDirection = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.codeeloButton3.Location = new System.Drawing.Point(148, 416);
-            this.codeeloButton3.Name = "codeeloButton3";
-            this.codeeloButton3.OnClickFirstBorderColor = System.Drawing.Color.DarkGray;
-            this.codeeloButton3.OnClickFirstFillColor = System.Drawing.Color.DarkGray;
-            this.codeeloButton3.OnClickSecondBorderColor = System.Drawing.Color.DarkGray;
-            this.codeeloButton3.OnClickSecondFillColor = System.Drawing.Color.DarkGray;
-            this.codeeloButton3.OnOverFirstBorderColor = System.Drawing.Color.DimGray;
-            this.codeeloButton3.OnOverFirstFillColor = System.Drawing.Color.DimGray;
-            this.codeeloButton3.OnOverSecondBorderColor = System.Drawing.Color.DimGray;
-            this.codeeloButton3.OnOverSecondFillColor = System.Drawing.Color.DimGray;
-            this.codeeloButton3.Size = new System.Drawing.Size(180, 60);
-            this.codeeloButton3.TabIndex = 9;
-            this.codeeloButton3.TabStop = false;
-            this.codeeloButton3.Text = "Настроить \r\nповторение";
-            this.codeeloButton3.TextAlign = CodeeloUI.Enums.TextPosition.Center;
-            this.codeeloButton3.UseGradientBorder = true;
-            this.codeeloButton3.UseMnemonic = false;
-            this.codeeloButton3.UseVisualStyleBackColor = false;
-            this.codeeloButton3.Click += new System.EventHandler(this.codeeloButton3_Click);
+            this.label1.Text = "Нова подія";
             // 
             // NewAppointmentForm
             // 

@@ -71,6 +71,7 @@ namespace DesktopCalendar
             this.codeeloGradientPanel2.Name = "codeeloGradientPanel2";
             this.codeeloGradientPanel2.Size = new System.Drawing.Size(1085, 590);
             this.codeeloGradientPanel2.TabIndex = 3;
+            //this.codeeloGradientPanel2.Controls
             // 
             // codeeloGradientPanel3
             // 
@@ -135,7 +136,7 @@ namespace DesktopCalendar
             this.DecemberButton.Name = "DecemberButton";
             this.DecemberButton.Size = new System.Drawing.Size(141, 48);
             this.DecemberButton.TabIndex = 12;
-            this.DecemberButton.Text = "Декабрь";
+            this.DecemberButton.Text = "Грудень";
             this.DecemberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.DecemberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.DecemberButton.UseVisualStyleBackColor = false;
@@ -146,7 +147,7 @@ namespace DesktopCalendar
             this.NovemberButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.NovemberButton.FlatAppearance.BorderSize = 0;
             this.NovemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NovemberButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NovemberButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NovemberButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.NovemberButton.Image = global::DesktopCalendar.Properties.Resources.november_40px;
             this.NovemberButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -154,7 +155,7 @@ namespace DesktopCalendar
             this.NovemberButton.Name = "NovemberButton";
             this.NovemberButton.Size = new System.Drawing.Size(141, 45);
             this.NovemberButton.TabIndex = 11;
-            this.NovemberButton.Text = "Ноябрь";
+            this.NovemberButton.Text = "Листопад";
             this.NovemberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.NovemberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.NovemberButton.UseVisualStyleBackColor = false;
@@ -173,7 +174,7 @@ namespace DesktopCalendar
             this.OctoberButton.Name = "OctoberButton";
             this.OctoberButton.Size = new System.Drawing.Size(141, 46);
             this.OctoberButton.TabIndex = 10;
-            this.OctoberButton.Text = "Октябрь";
+            this.OctoberButton.Text = "Жовтень";
             this.OctoberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.OctoberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.OctoberButton.UseVisualStyleBackColor = false;
@@ -192,7 +193,7 @@ namespace DesktopCalendar
             this.SeptemberButton.Name = "SeptemberButton";
             this.SeptemberButton.Size = new System.Drawing.Size(141, 45);
             this.SeptemberButton.TabIndex = 9;
-            this.SeptemberButton.Text = "Сентябрь";
+            this.SeptemberButton.Text = "Вересень";
             this.SeptemberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.SeptemberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.SeptemberButton.UseVisualStyleBackColor = false;
@@ -211,7 +212,7 @@ namespace DesktopCalendar
             this.AugustButton.Name = "AugustButton";
             this.AugustButton.Size = new System.Drawing.Size(141, 46);
             this.AugustButton.TabIndex = 8;
-            this.AugustButton.Text = "Август";
+            this.AugustButton.Text = "Серпень";
             this.AugustButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AugustButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.AugustButton.UseVisualStyleBackColor = false;
@@ -230,7 +231,7 @@ namespace DesktopCalendar
             this.JuleButton.Name = "JuleButton";
             this.JuleButton.Size = new System.Drawing.Size(141, 45);
             this.JuleButton.TabIndex = 7;
-            this.JuleButton.Text = "Июль";
+            this.JuleButton.Text = "Липень";
             this.JuleButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.JuleButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.JuleButton.UseVisualStyleBackColor = false;
@@ -249,7 +250,7 @@ namespace DesktopCalendar
             this.JuneButton.Name = "JuneButton";
             this.JuneButton.Size = new System.Drawing.Size(141, 46);
             this.JuneButton.TabIndex = 6;
-            this.JuneButton.Text = "Июнь";
+            this.JuneButton.Text = "Червень";
             this.JuneButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.JuneButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.JuneButton.UseVisualStyleBackColor = false;
@@ -268,7 +269,7 @@ namespace DesktopCalendar
             this.MayButton.Name = "MayButton";
             this.MayButton.Size = new System.Drawing.Size(141, 45);
             this.MayButton.TabIndex = 5;
-            this.MayButton.Text = "Май";
+            this.MayButton.Text = "Травень";
             this.MayButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.MayButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.MayButton.UseVisualStyleBackColor = false;
@@ -287,7 +288,7 @@ namespace DesktopCalendar
             this.AprilButton.Name = "AprilButton";
             this.AprilButton.Size = new System.Drawing.Size(141, 46);
             this.AprilButton.TabIndex = 4;
-            this.AprilButton.Text = "Апрель";
+            this.AprilButton.Text = "Квітень";
             this.AprilButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AprilButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.AprilButton.UseVisualStyleBackColor = false;
@@ -306,7 +307,7 @@ namespace DesktopCalendar
             this.MarchButton.Name = "MarchButton";
             this.MarchButton.Size = new System.Drawing.Size(141, 45);
             this.MarchButton.TabIndex = 3;
-            this.MarchButton.Text = "Март";
+            this.MarchButton.Text = "Березень";
             this.MarchButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.MarchButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.MarchButton.UseVisualStyleBackColor = false;
@@ -325,7 +326,7 @@ namespace DesktopCalendar
             this.FebruaryButton.Name = "FebruaryButton";
             this.FebruaryButton.Size = new System.Drawing.Size(141, 46);
             this.FebruaryButton.TabIndex = 2;
-            this.FebruaryButton.Text = "Февраль";
+            this.FebruaryButton.Text = "Лютий";
             this.FebruaryButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.FebruaryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.FebruaryButton.UseVisualStyleBackColor = false;
@@ -344,7 +345,7 @@ namespace DesktopCalendar
             this.JanuaryButton.Name = "JanuaryButton";
             this.JanuaryButton.Size = new System.Drawing.Size(141, 45);
             this.JanuaryButton.TabIndex = 1;
-            this.JanuaryButton.Text = "Январь";
+            this.JanuaryButton.Text = "Січень";
             this.JanuaryButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.JanuaryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.JanuaryButton.UseVisualStyleBackColor = false;
@@ -373,7 +374,7 @@ namespace DesktopCalendar
             this.YearButton.Name = "YearButton";
             this.YearButton.Size = new System.Drawing.Size(210, 42);
             this.YearButton.TabIndex = 2;
-            this.YearButton.Text = "ГОД";
+            this.YearButton.Text = "РІК";
             this.YearButton.UseVisualStyleBackColor = false;
             // 
             // PreviousYearButton
@@ -425,6 +426,7 @@ namespace DesktopCalendar
             // appointmentViewPanel1
             // 
             this.appointmentViewPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            this.appointmentViewPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.appointmentViewPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.appointmentViewPanel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.appointmentViewPanel1.Location = new System.Drawing.Point(0, 0);
@@ -432,6 +434,8 @@ namespace DesktopCalendar
             this.appointmentViewPanel1.Padding = new System.Windows.Forms.Padding(2);
             this.appointmentViewPanel1.Size = new System.Drawing.Size(219, 548);
             this.appointmentViewPanel1.TabIndex = 0;
+            ((CodeeloUI.Controls.CodeeloDateTimePicker) this.appointmentViewPanel1.Controls.Find("codeeloDateTimePicker1", true)[0]).Format = System.Windows.Forms.DateTimePickerFormat.Short; 
+            //this.appointmentViewPanel1.Controls.RemoveAt(1);
             // 
             // MainForm
             // 

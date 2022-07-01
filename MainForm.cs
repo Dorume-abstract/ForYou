@@ -28,6 +28,7 @@ namespace DesktopCalendar
             _calendar = new CustomCalendar();
             _calendar.Dock = DockStyle.Fill;
             _calendar.DisplayDays(DateTime.Now);
+            _calendar.Controls.Find("label7", true)[0].Text = "НД";
 
             codeeloGradientPanel2.Controls.Add(_calendar);
             YearButton.Text = DateTime.Now.Year.ToString();
